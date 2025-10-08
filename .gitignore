@@ -31,3 +31,6 @@ __MACOSX
 # Dotenv/Environments
 .env
 .venv
+
+# Rust
+target/
