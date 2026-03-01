@@ -2,3 +2,5 @@
 Time to finally learn rust
 
 Following rust docs book at https://doc.rust-lang.org/book/
+
+Also rustlings
