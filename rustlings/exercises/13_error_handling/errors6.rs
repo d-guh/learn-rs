@@ -4,7 +4,7 @@
 // a custom error type to make it possible for callers to decide what to do next
 // when our function returns an error.
 
-use std::{io::ErrorKind, num::ParseIntError};
+use std::num::ParseIntError;
 
 #[derive(PartialEq, Debug)]
 enum CreationError {
