@@ -51,21 +51,26 @@ output/
 *.out
 *.app
 *.dll
+*.pdb
 *.so
-*.dylib
 *.a
 *.lib
+*.dylib
 
 ########################
 # Temp / Cache
 ########################
 # Temp files
-.tmp
-.temp
 tmp
 temp
-*.tmp
+.tmp
+.temp
+tmp.*
 temp.*
+.tmp.*
+.temp.*
+*.tmp
+*.temp
 
 # Logs
 *.log
@@ -75,6 +80,7 @@ temp.*
 ########################
 .env
 .env.*
+*.env
 !.env.example
 
 ########################
@@ -90,9 +96,4 @@ temp.*
 ########################
 # Project/language specific stuff here as needed
 # Rust
-debug/
 target/
-*.pdb
-**/*.rs.bk
-**/mutants.out*/
-Cargo.lock
